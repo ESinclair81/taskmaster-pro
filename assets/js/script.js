@@ -251,6 +251,11 @@ $("#trash").droppable({
     console.log("out");
   }
 });
+
 // load tasks for the first time
 loadTasks();
+
+$("#modalDueDate").datepicker();
+
+
 
