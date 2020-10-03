@@ -292,5 +292,14 @@ var auditTask = function(taskEl) {
   console.log(taskEl);
 };
 
+setInterval(function () {
+  $(".card .list-group-item").each(function(index, el) {
+    auditTask(el);
+  });
+}, 5000);
+
+
+
+
 
 

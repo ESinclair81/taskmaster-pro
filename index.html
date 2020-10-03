@@ -7,9 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Staatliches&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>Taskmaster Pro</title>
+  
+  <title>Tingmastah Proaz</title>
 </head>
 
 <body>
@@ -17,9 +19,12 @@
   <div class="row min-vh-100 no-gutters">
     <header class="col-12 col-lg-3 bg-dark text-light sticky-top d-flex flex-column p-4 p-lg-3">
       <h1 class="text-center">Taskmaster Pro Edition</h1>
-      <button id="create-task" class="btn btn-block btn-success" data-toggle="modal" data-target="#task-form-modal">Add
-        Task</button>
-      <button id="remove-tasks" class="btn btn-block btn-danger">Delete All Tasks</button>
+      <button id="create-task" class="btn btn-block btn-success" data-toggle="modal" data-target="#task-form-modal">
+        <!-- What does the mr-2 do? Hint: it's from Bootstrap! -->
+        <span class="oi oi-plus mr-2"></span>Hold A New Task Styll
+      </button>
+      <button id="remove-tasks" class="btn btn-block btn-danger"><span class="oi oi-trash"></span>
+        Dash Dat Trash</button>
       <p class="mt-auto d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptas architecto ipsa
         excepturi aut non
         laudantium sequi fugit officiis optio deleniti asperiores rem eius laborum maxime blanditiis culpa, quis iste?
@@ -31,12 +36,12 @@
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
             <h4 class="card-header bg-dark text-light">
-              To Do
+              Ting Fe Do
             </h4>
             <ul id="list-toDo" class="list-group list-group-flush">
               <li class="list-group-item">
                 <span class="badge badge-primary badge-pill">05/28/2020</span>
-                <p class="m-1">Sample task to do</p>
+                <p class="m-1">Sample Ting Fe Do</p>
               </li>
             </ul>
           </div>
@@ -45,12 +50,12 @@
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
             <h4 class="card-header bg-dark text-light">
-              In Progress
+              Inna Progress
             </h4>    
           <ul id="list-inProgress" class="list-group list-group-flush">
             <li class="list-group-item">
               <span class="badge badge-primary badge-pill">05/28/2020</span>
-              <p class="m-1">Sample task in progress</p>
+              <p class="m-1">Sample Ting Inna Progress Styll</p>
             </li>
           </ul>
         </div>
@@ -60,12 +65,12 @@
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
             <h4 class="card-header bg-dark text-light">
-              In Review
+              On De Fence Styll
             </h4>
           <ul id="list-inReview" class="list-group list-group-flush">
             <li class="list-group-item">
               <span class="badge badge-primary badge-pill">05/28/2020</span>
-              <p class="m-1">Sample task in review</p>
+              <p class="m-1">Sample Ting On De Fence Styll</p>
             </li>
           </ul>
         </div>
@@ -75,19 +80,20 @@
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
             <h4 class="card-header bg-dark text-light">
-              Done
+              Doneaz
             </h4>
           <ul id="list-done" class="list-group list-group-flush">
             <li class="list-group-item">
               <span class="badge badge-primary badge-pill">05/28/2020</span>
-              <p class="m-1">Sample task that's done</p>
+              <p class="m-1">Sample Ting Doneaz</p>
             </li>
           </ul>
         </div>
       </div>
         <div id="trash">
           <div class="w-100 bg-danger p-3 text-center mt-auto text-light display-4">
-            Drop Here to Remove.
+            <span class="oi oi-trash"></span>
+            Wastebin for Wasteman Tingz
           </div>
         <!-- done end -->
     </main>
